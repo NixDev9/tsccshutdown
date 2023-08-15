@@ -1,0 +1,4 @@
+RewriteEngine on
+
+# Redirect /page_name1 to /name1.html
+RewriteRule ^countdown$ /news.html [L]
