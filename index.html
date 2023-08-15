@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="og:title" content="Countdown-TSCC">
+    <meta property="og:description" content="Track Santa while he delivers presents during Christmas Eve and day!">
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1102281597564231811/1136545564297793596/TSCC-Logo.png">
+    <meta property="og:url" content="https://www.tracksanta.cc">
+    <title>tracksanta.cc 2023</title>
+    <link rel="shortcut icon" type="x-icon" href="TSCC-Logo.png">
+    <style>
+        html,
+        body {
+            color-scheme: dark black;
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            font-family: system-ui;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        p {
+            font-size: 15px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: system-ui;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        #countdown-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        #countdown {
+            font-size: 40px;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+
+        #countdown.hide {
+            opacity: 0;
+        }
+
+        #countdown-heading {
+            opacity: 1;
+            transition: opacity 0.5s ease;
+            font-size: 25px;
+        }
+
+        #countdown-heading.hide {
+            opacity: 0;
+        }
+
+        #transmission {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            font-size: 24px;
+            color: white;
+        }
+
+        #blue-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background-repeat: repeat-x;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="blue-bar"></div>
+    <div id="countdown-container">
+        <h1 id="countdown-heading">TSCC is shutting down</h1>
+        <div id="transmission"></div>
+    </div>
+
+    <p>Note: tracksanta.cc (TSCC) is no longer available. Thank you for your support.</p>
+</body>
+
+</html>
